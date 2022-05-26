@@ -15,7 +15,10 @@
     {
         "name": "Foodstore",
         "type": "Storage",
-        "resource": "Food"
+        "resource": "Food",
+        "inputs": [],
+        "outputs": [],
+        "duration": 1
     },
     {
         "name": "Winery",
@@ -225,7 +228,10 @@
     {
         "name": "Stockpile",
         "type": "Storage",
-        "resource": "Material"
+        "resource": "Material",
+        "inputs": [],
+        "outputs": [],
+        "duration": 1
     },
     {
         "name": "Woodcutter",
@@ -450,17 +456,26 @@
     {
         "name": "Library",
         "type": "Storage",
-        "resource": "Science"
+        "resource": "Science",
+        "inputs": [],
+        "outputs": [],
+        "duration": 1
     },
     {
         "name": "University",
-        "type": "Storage",
-        "resource": "Science"
+        "type": "Research",
+        "resource": "Science",
+        "inputs": [],
+        "outputs": [],
+        "duration": 1
     },
     {
         "name": "Academy",
-        "type": "Storage",
-        "resource": "Science"
+        "type": "Research",
+        "resource": "Science",
+        "inputs": [],
+        "outputs": [],
+        "duration": 1
     },
     {
         "name": "Shaman",

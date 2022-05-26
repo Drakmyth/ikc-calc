@@ -1,0 +1,685 @@
+[
+    {
+        "name": "Foraging Hut",
+        "type": "Producer",
+        "resource": "Food",
+        "inputs": [],
+        "outputs": [
+            {
+                "item": "Fruit",
+                "amount": 0.2625
+            }
+        ],
+        "duration": 2.5
+    },
+    {
+        "name": "Foodstore",
+        "type": "Storage",
+        "resource": "Food"
+    },
+    {
+        "name": "Winery",
+        "type": "Producer",
+        "resource": "Food",
+        "inputs": [
+            {
+                "item": "Fruit",
+                "amount": 5.25
+            }
+        ],
+        "outputs": [
+            {
+                "item": "Wine",
+                "amount": 5.25
+            }
+        ],
+        "duration": 5.25
+    },
+    {
+        "name": "Hunter",
+        "type": "Producer",
+        "resource": "Food",
+        "inputs": [],
+        "outputs": [
+            {
+                "item": "Meat",
+                "amount": 2.1
+            }
+        ],
+        "duration": 5
+    },
+    {
+        "name": "Farm",
+        "type": "Producer",
+        "resource": "Food",
+        "inputs": [],
+        "outputs": [
+            {
+                "item": "Grain",
+                "amount": 4.2
+            }
+        ],
+        "duration": 10
+    },
+    {
+        "name": "Herbalist Hut",
+        "type": "Producer",
+        "resource": "Food",
+        "inputs": [],
+        "outputs": [
+            {
+                "item": "Herbs",
+                "amount": 30
+            }
+        ],
+        "duration": 10
+    },
+    {
+        "name": "Fisherman",
+        "type": "Producer",
+        "resource": "Food",
+        "inputs": [],
+        "outputs": [
+            {
+                "item": "Fish",
+                "amount": 4.2
+            }
+        ],
+        "duration": 10
+    },
+    {
+        "name": "Bakery",
+        "type": "Producer",
+        "resource": "Food",
+        "inputs": [
+            {
+                "item": "Grain",
+                "amount": 546
+            }
+        ],
+        "outputs": [
+            {
+                "item": "Bread",
+                "amount": 273
+            }
+        ],
+        "duration": 20
+    },
+    {
+        "name": "Butcher Shop",
+        "type": "Producer",
+        "resource": "Food",
+        "inputs": [
+            {
+                "item": "Meat",
+                "amount": 40000000
+            },
+            {
+                "item": "Herbs",
+                "amount": 40000
+            }
+        ],
+        "outputs": [
+            {
+                "item": "Seasoned Meat",
+                "amount": 7500000
+            }
+        ],
+        "duration": 20
+    },
+    {
+        "name": "Spice Farm",
+        "type": "Producer",
+        "resource": "Food",
+        "inputs": [],
+        "outputs": [
+            {
+                "item": "Spices",
+                "amount": 67.2
+            }
+        ],
+        "duration": 40
+    },
+    {
+        "name": "Salt Mine",
+        "type": "Producer",
+        "resource": "Food",
+        "inputs": [],
+        "outputs": [
+            {
+                "item": "Salt",
+                "amount": 67.2
+            }
+        ],
+        "duration": 40
+    },
+    {
+        "name": "Distillery",
+        "type": "Producer",
+        "resource": "Food",
+        "inputs": [
+            {
+                "item": "Wine",
+                "amount": 168
+            },
+            {
+                "item": "Spices",
+                "amount": 134.4
+            }
+        ],
+        "outputs": [
+            {
+                "item": "Spiced Wine",
+                "amount": 268.8
+            }
+        ],
+        "duration": 80
+    },
+    {
+        "name": "Curing Shop",
+        "type": "Producer",
+        "resource": "Food",
+        "inputs": [
+            {
+                "item": "Fish",
+                "amount": 67.2
+            },
+            {
+                "item": "Salt",
+                "amount": 134.4
+            }
+        ],
+        "outputs": [
+            {
+                "item": "Cured Fish",
+                "amount": 268.8
+            }
+        ],
+        "duration": 80
+    },
+    {
+        "name": "Tavern",
+        "type": "Producer",
+        "resource": "Food",
+        "inputs": [
+            {
+                "item": "Bread",
+                "amount": 1100
+            },
+            {
+                "item": "Seasoned Meat",
+                "amount": 4400
+            },
+            {
+                "item": "Spiced Wine",
+                "amount": 120000000
+            }
+        ],
+        "outputs": [
+            {
+                "item": "Hearty Meal",
+                "amount": 1080
+            }
+        ]
+    },
+    {
+        "name": "Stockpile",
+        "type": "Storage",
+        "resource": "Material"
+    },
+    {
+        "name": "Woodcutter",
+        "type": "Producer",
+        "resource": "Material",
+        "inputs": [],
+        "outputs": [
+            {
+                "item": "Log",
+                "amount": 2.45
+            }
+        ],
+        "duration": 7
+    },
+    {
+        "name": "Clay Pit",
+        "type": "Producer",
+        "resource": "Material",
+        "inputs": [],
+        "outputs": [
+            {
+                "item": "Clay",
+                "amount": 39.2
+            }
+        ],
+        "duration": 14
+    },
+    {
+        "name": "Sawmill",
+        "type": "Producer",
+        "resource": "Material",
+        "inputs": [
+            {
+                "item": "Log",
+                "amount": 49
+            }
+        ],
+        "outputs": [
+            {
+                "item": "Plank",
+                "amount": 49
+            }
+        ],
+        "duration": 14
+    },
+    {
+        "name": "Quarry",
+        "type": "Producer",
+        "resource": "Material",
+        "inputs": [],
+        "outputs": [
+            {
+                "item": "Rough Stone",
+                "amount": 39.2
+            }
+        ],
+        "duration": 28
+    },
+    {
+        "name": "Kiln",
+        "type": "Producer",
+        "resource": "Material",
+        "inputs": [
+            {
+                "item": "Clay",
+                "amount": 42000
+            }
+        ],
+        "outputs": [
+            {
+                "item": "Brick",
+                "amount": 14000
+            }
+        ],
+        "duration": 28
+    },
+    {
+        "name": "Forester Lodge",
+        "type": "Producer",
+        "resource": "Material",
+        "inputs": [],
+        "outputs": [
+            {
+                "item": "Hardwood",
+                "amount": 39.2
+            }
+        ],
+        "duration": 28
+    },
+    {
+        "name": "Carpentry",
+        "type": "Producer",
+        "resource": "Material",
+        "inputs": [
+            {
+                "item": "Plank",
+                "amount": 22400000
+            },
+            {
+                "item": "Hardwood",
+                "amount": 56000
+            }
+        ],
+        "outputs": [
+            {
+                "item": "Framework",
+                "amount": 1680000
+            }
+        ],
+        "duration": 56
+    },
+    {
+        "name": "Coal Mine",
+        "type": "Producer",
+        "resource": "Material",
+        "inputs": [],
+        "outputs": [
+            {
+                "item": "Coal",
+                "amount": 156.8
+            }
+        ],
+        "duration": 56
+    },
+    {
+        "name": "Mason Shop",
+        "type": "Producer",
+        "resource": "Material",
+        "inputs": [
+            {
+                "item": "Rough Stone",
+                "amount": 313.6
+            }
+        ],
+        "outputs": [
+            {
+                "item": "Stone Block",
+                "amount": 627.2
+            }
+        ],
+        "duration": 112
+    },
+    {
+        "name": "Iron Mine",
+        "type": "Producer",
+        "resource": "Material",
+        "inputs": [],
+        "outputs": [
+            {
+                "item": "Iron Ore",
+                "amount": 627.2
+            }
+        ],
+        "duration": 112
+    },
+    {
+        "name": "Engineering Hall",
+        "type": "Producer",
+        "resource": "Material",
+        "inputs": [
+            {
+                "item": "Brick",
+                "amount": 2500
+            },
+            {
+                "item": "Framework",
+                "amount": 13400000
+            },
+            {
+                "item": "Stone Block",
+                "amount": 224000
+            }
+        ],
+        "outputs": [
+            {
+                "item": "Construct",
+                "amount": 2510
+            }
+        ],
+        "duration": 222
+    },
+    {
+        "name": "Smelter",
+        "type": "Producer",
+        "resource": "Material",
+        "inputs": [
+            {
+                "item": "Coal",
+                "amount": 1300
+            },
+            {
+                "item": "Iron Ore",
+                "amount": 627.2
+            }
+        ],
+        "outputs": [
+            {
+                "item": "Iron Bar",
+                "amount": 2510
+            }
+        ],
+        "duration": 222
+    },
+    {
+        "name": "Blacksmith",
+        "type": "Producer",
+        "resource": "Material",
+        "inputs": [
+            {
+                "item": "Iron Bar",
+                "amount": 10000
+            }
+        ],
+        "outputs": [
+            {
+                "item": "Iron Tool",
+                "amount": 10040
+            }
+        ],
+        "duration": 450
+    },
+    {
+        "name": "Library",
+        "type": "Storage",
+        "resource": "Science"
+    },
+    {
+        "name": "University",
+        "type": "Storage",
+        "resource": "Science"
+    },
+    {
+        "name": "Academy",
+        "type": "Storage",
+        "resource": "Science"
+    },
+    {
+        "name": "Shaman",
+        "type": "Producer",
+        "resource": "Science",
+        "inputs": [],
+        "outputs": [
+            {
+                "item": "Potion",
+                "amount": 0.28
+            }
+        ],
+        "duration": 5.5
+    },
+    {
+        "name": "Adept Shack",
+        "type": "Producer",
+        "resource": "Science",
+        "inputs": [
+            {
+                "item": "Potion",
+                "amount": 5.5
+            }
+        ],
+        "outputs": [
+            {
+                "item": "Concoction",
+                "amount": 5.5
+            }
+        ],
+        "duration": 11
+    },
+    {
+        "name": "Paper Mill",
+        "type": "Producer",
+        "resource": "Science",
+        "inputs": [],
+        "outputs": [
+            {
+                "item": "Papyrus",
+                "amount": 4.4
+            }
+        ],
+        "duration": 11
+    },
+    {
+        "name": "Outcast Hovel",
+        "type": "Producer",
+        "resource": "Science",
+        "inputs": [],
+        "outputs": [
+            {
+                "item": "Mercury",
+                "amount": 880
+            }
+        ],
+        "duration": 22
+    },
+    {
+        "name": "Bookbinder",
+        "type": "Producer",
+        "resource": "Science",
+        "inputs": [
+            {
+                "item": "Papyrus",
+                "amount": 17600
+            }
+        ],
+        "outputs": [
+            {
+                "item": "Blank Book",
+                "amount": 5500
+            }
+        ],
+        "duration": 22
+    },
+    {
+        "name": "Squid Fisher",
+        "type": "Producer",
+        "resource": "Science",
+        "inputs": [],
+        "outputs": [
+            {
+                "item": "Pigments",
+                "amount": 17.6
+            }
+        ],
+        "duration": 22
+    },
+    {
+        "name": "Volcano Outpost",
+        "type": "Producer",
+        "resource": "Science",
+        "inputs": [],
+        "outputs": [
+            {
+                "item": "Sulphur",
+                "amount": 1760000
+            }
+        ],
+        "duration": 44
+    },
+    {
+        "name": "Whaling Port",
+        "type": "Producer",
+        "resource": "Science",
+        "inputs": [],
+        "outputs": [
+            {
+                "item": "Oil",
+                "amount": 880000
+            }
+        ],
+        "duration": 44
+    },
+    {
+        "name": "Apothecary",
+        "type": "Producer",
+        "resource": "Science",
+        "inputs": [
+            {
+                "item": "Sulphur",
+                "amount": 3500000
+            }
+        ],
+        "outputs": [
+            {
+                "item": "Ointments",
+                "amount": 70.4
+            }
+        ],
+        "duration": 88
+    },
+    {
+        "name": "Alchemist Tower",
+        "type": "Producer",
+        "resource": "Science",
+        "inputs": [
+            {
+                "item": "Mercury",
+                "amount": 3500
+            }
+        ],
+        "outputs": [
+            {
+                "item": "Elixir",
+                "amount": 70.4
+            }
+        ],
+        "duration": 88
+    },
+    {
+        "name": "Laboratory",
+        "type": "Producer",
+        "resource": "Science",
+        "inputs": [
+            {
+                "item": "Concoction",
+                "amount": 281.6
+            },
+            {
+                "item": "Ointments",
+                "amount": 281.6
+            },
+            {
+                "item": "Elixir",
+                "amount": 176
+            }
+        ],
+        "outputs": [
+            {
+                "item": "Aether",
+                "amount": 281.6
+            }
+        ],
+        "duration": 174
+    },
+    {
+        "name": "Dye Works",
+        "type": "Producer",
+        "resource": "Science",
+        "inputs": [
+            {
+                "item": "Pigments",
+                "amount": 3500000
+            },
+            {
+                "item": "Oil",
+                "amount": 281.6
+            }
+        ],
+        "outputs": [
+            {
+                "item": "Ink",
+                "amount": 281.6
+            }
+        ],
+        "duration": 174
+    },
+    {
+        "name": "Scriptorium",
+        "type": "Producer",
+        "resource": "Science",
+        "inputs": [
+            {
+                "item": "Blank Book",
+                "amount": 176000
+            },
+            {
+                "item": "Ink",
+                "amount": 1100
+            }
+        ],
+        "outputs": [
+            {
+                "item": "Almanac",
+                "amount": 1130
+            }
+        ],
+        "duration": 354
+    }
+]

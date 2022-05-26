@@ -1,0 +1,197 @@
+[
+    {
+        "name": "Fruit",
+        "resource": "Food",
+        "value": 1
+    },
+    {
+        "name": "Meat",
+        "resource": "Food",
+        "value": 10
+    },
+    {
+        "name": "Wine",
+        "resource": "Food",
+        "value": 20
+    },
+    {
+        "name": "Fish",
+        "resource": "Food",
+        "value": 100
+    },
+    {
+        "name": "Grain",
+        "resource": "Food",
+        "value": 2500
+    },
+    {
+        "name": "Bread",
+        "resource": "Food",
+        "value": 200000
+    },
+    {
+        "name": "Spices",
+        "resource": "Food",
+        "value": 500000
+    },
+    {
+        "name": "Salt",
+        "resource": "Food",
+        "value": 500000
+    },
+    {
+        "name": "Herbs",
+        "resource": "Food",
+        "value": 2000000
+    },
+    {
+        "name": "Seasoned Meat",
+        "resource": "Food",
+        "value": 4000000
+    },
+    {
+        "name": "Spiced Wine",
+        "resource": "Food",
+        "value": 10400000
+    },
+    {
+        "name": "Cured Fish",
+        "resource": "Food",
+        "value": 50200000
+    },
+    {
+        "name": "Hearty Meal",
+        "resource": "Food",
+        "value": 8600000000
+    },
+    {
+        "name": "Log",
+        "resource": "Material",
+        "value": 1
+    },
+    {
+        "name": "Plank",
+        "resource": "Material",
+        "value": 20
+    },
+    {
+        "name": "Clay",
+        "resource": "Material",
+        "value": 50
+    },
+    {
+        "name": "Brick",
+        "resource": "Material",
+        "value": 400
+    },
+    {
+        "name": "Rough Stone",
+        "resource": "Material",
+        "value": 1000
+    },
+    {
+        "name": "Coal",
+        "resource": "Material",
+        "value": 50000
+    },
+    {
+        "name": "Stone Block",
+        "resource": "Material",
+        "value": 200000
+    },
+    {
+        "name": "Hardwood",
+        "resource": "Material",
+        "value": 300000
+    },
+    {
+        "name": "Iron Ore",
+        "resource": "Material",
+        "value": 500000
+    },
+    {
+        "name": "Framework",
+        "resource": "Material",
+        "value": 1000000
+    },
+    {
+        "name": "Iron Bar",
+        "resource": "Material",
+        "value": 20000000
+    },
+    {
+        "name": "Construct",
+        "resource": "Material",
+        "value": 204800000
+    },
+    {
+        "name": "Iron Tool",
+        "resource": "Material",
+        "value": 400000000
+    },
+    {
+        "name": "Potion",
+        "resource": "Science",
+        "value": 1
+    },
+    {
+        "name": "Papyrus",
+        "resource": "Science",
+        "value": 10
+    },
+    {
+        "name": "Concoction",
+        "resource": "Science",
+        "value": 20
+    },
+    {
+        "name": "Pigments",
+        "resource": "Science",
+        "value": 200
+    },
+    {
+        "name": "Blank Book",
+        "resource": "Science",
+        "value": 50000
+    },
+    {
+        "name": "Mercury",
+        "resource": "Science",
+        "value": 300000
+    },
+    {
+        "name": "Sulphur",
+        "resource": "Science",
+        "value": 500000
+    },
+    {
+        "name": "Oil",
+        "resource": "Science",
+        "value": 1000000
+    },
+    {
+        "name": "Ointments",
+        "resource": "Science",
+        "value": 10000000
+    },
+    {
+        "name": "Elixir",
+        "resource": "Science",
+        "value": 60000000
+    },
+    {
+        "name": "Ink",
+        "resource": "Science",
+        "value": 200400000
+    },
+    {
+        "name": "Aether",
+        "resource": "Science",
+        "value": 1800000000
+    },
+    {
+        "name": "Almanac",
+        "resource": "Science",
+        "value": 5000000000
+    }
+]
